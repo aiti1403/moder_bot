@@ -1,7 +1,7 @@
 import logging
 
 # Настройки бота
-BOT_TOKEN = "7975159958:AAEgp0KP9apUnhzY8Nli_n7nJq-IMRCV-0w"  # Замените на ваш токен от BotFather
+BOT_TOKEN = "7629674183:AAHphaiG4G_Qb7LjoLYv19yto8-hbmQ4bbo"  # Замените на ваш токен от BotFather
 
 # Настройки OpenAI
 OPENAI_API_KEY = "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"  # Замените на ваш ключ API
