@@ -4,7 +4,8 @@ from aiogram import Bot, Dispatcher, F
 from aiogram.filters import Command, CommandStart
 from aiogram.types import Message, BotCommand
 from config import BOT_TOKEN
-from filters import is_inappropriate_text, check_image_with_ai, check_video_with_ai, download_file
+from media_filter import check_image_with_ai, check_video_with_ai, download_file
+from text_filter import is_inappropriate_text
 
 # Настройка логирования
 logging.basicConfig(level=logging.INFO)
